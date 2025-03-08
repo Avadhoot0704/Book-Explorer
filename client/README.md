@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 📚 Book Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Book Explorer is a web application that allows users to search for books using the **Google Books API**, add books to their wishlist, and manage their reading list.
 
-## Available Scripts
+## 🚀 Features
+- 🔍 **Search Books** - Search for books using Google Books API.
+- 📌 **Wishlist** - Add books to your wishlist (stored in MongoDB).
+- 🔐 **User Authentication** - Register & login functionality.
+- 📖 **Manage Wishlist** - View and remove books from the wishlist.
+- 🌟 **Beautiful UI** - Styled with modern design.
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- **Frontend:** React, React Router
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Tokens)
+- **API Used:** Google Books API
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔧 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Avadhoot0704/Book-Explorer.git
+Navigate into the project folder:
 
-### `npm test`
+cd Book-Explorer
+Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+Set up the backend:
+Create a .env file in the server folder:
 
-### `npm run build`
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+Start the backend:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd server
+npm start
+Start the frontend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+cd client
+npm start
+💡 Usage
+Open the app in your browser.
+Search for books.
+Click Add to Wishlist to save books.
+View your wishlist on My Books page.
